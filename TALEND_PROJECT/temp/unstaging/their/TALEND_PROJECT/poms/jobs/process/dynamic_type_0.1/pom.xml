@@ -19,11 +19,11 @@
     <talend.job.folder></talend.job.folder>
     <talend.job.context>Default</talend.job.context>
     <talend.job.path>talend_project</talend.job.path>
-    <talend.job.git.commit.id>8aec8cdfaf71afbac4e6d67a69a9127cb23ca075</talend.job.git.commit.id>
+    <talend.job.git.commit.id></talend.job.git.commit.id>
     <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
     <talend.job.stat>true</talend.job.stat>
-    <talend.job.git.author>swathirathinamcse@gmail.com</talend.job.git.author>
-    <talend.job.jvmargs>-Xms256M -Xmx1024M -Xshare:off -Djavaagent:../lib/talendagent-1.0.2.jar=bootjar=../lib/talendboot-1.0.8.jar </talend.job.jvmargs>
+    <talend.job.git.author></talend.job.git.author>
+    <talend.job.jvmargs>-Xms256M -Xmx1024M -Dfile.encoding=UTF-8 </talend.job.jvmargs>
     <talend.job.id>_BgA8YKECEe-8RddGWYjubg</talend.job.id>
     <talend.job.version>0.1</talend.job.version>
     <talend.job.framework></talend.job.framework>
@@ -41,7 +41,7 @@
     <talend.product.version>8.0.1.20241016_1624-patch</talend.product.version>
     <talend.project.name>TALEND_PROJECT</talend.project.name>
     <current.test.resources.dir>${basedir}/src/test/resources</current.test.resources.dir>
-    <talend.job.git.commit.date>1731575825000</talend.job.git.commit.date>
+    <talend.job.git.commit.date></talend.job.git.commit.date>
     <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
     <talend.job.name>Dynamic_type</talend.job.name>
@@ -674,9 +674,6 @@
     </profile>
     <profile>
       <id>include-running-log4j</id>
-      <activation>
-        <activeByDefault>true</activeByDefault>
-      </activation>
       <properties>
         <log4j.running.dir>${current.resources.dir}/</log4j.running.dir>
       </properties>
