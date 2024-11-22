@@ -20,4 +20,15 @@
     "version" : "Latest",
     "type" : "property"
   } ]
+}, {
+  "baseItem" : {
+    "id" : "_pjMrYKirEe-Xoeii2mp2sg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_pZMeYKGmEe-xU4tK9wIsxQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
 } ]
