@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_iRPQsKvMEe-SUs9D1--zlQ" confirmationNeeded="false" hide="false" name="Default">
+  <contextParameter xmi:id="_iRPQsavMEe-SUs9D1--zlQ" comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_iRPQsqvMEe-SUs9D1--zlQ" comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_iRPQs6vMEe-SUs9D1--zlQ" comment="" name="user" prompt="user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_iRP3wKvMEe-SUs9D1--zlQ" comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_iRP3wavMEe-SUs9D1--zlQ" comment="" name="table" prompt="table?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+</talendfile:ContextType>
