@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_Gk9JUKvsEe-1Ad8ca96SDg" name="repository.metadataGenericSchema" dataPackage="_Gk9JUavsEe-1Ad8ca96SDg" mappingTypeUsed="true" mappingTypeId="mysql_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_Gk9JUavsEe-1Ad8ca96SDg" name="repository.metadataGenericSchema" dataManager="_Gk9JUKvsEe-1Ad8ca96SDg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Gk9JUqvsEe-1Ad8ca96SDg" id="_DJUI4KvsEe-1Ad8ca96SDg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gk9JU6vsEe-1Ad8ca96SDg" name="EMP_ID" label="EMP_ID" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+        <initialValue xmi:id="_Gk9JVKvsEe-1Ad8ca96SDg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gk9JVavsEe-1Ad8ca96SDg" name="EMP_NAME" label="EMP_NAME" length="255" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Gk9JVqvsEe-1Ad8ca96SDg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gk9JV6vsEe-1Ad8ca96SDg" name="SALARY" label="SALARY" length="-1" precision="-1" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_Gk9JWKvsEe-1Ad8ca96SDg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gk9JWavsEe-1Ad8ca96SDg" name="DESIGNATION" label="DESIGNATION" length="255" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Gk9JWqvsEe-1Ad8ca96SDg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gk9JW6vsEe-1Ad8ca96SDg" name="PREVIOUS_COMPANY" label="PREVIOUS_COMPANY" length="255" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Gk9JXKvsEe-1Ad8ca96SDg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gk9JXavsEe-1Ad8ca96SDg" name="CITY" label="CITY" length="255" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Gk9JXqvsEe-1Ad8ca96SDg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gk9JX6vsEe-1Ad8ca96SDg" name="MOBILE" label="MOBILE" length="-1" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Gk9JYKvsEe-1Ad8ca96SDg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gk9JYavsEe-1Ad8ca96SDg" name="ACTIVE_FLG" label="ACTIVE_FLG" length="10" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Gk9JYqvsEe-1Ad8ca96SDg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

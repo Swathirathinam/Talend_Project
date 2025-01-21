@@ -1,5 +1,24 @@
 [ {
   "baseItem" : {
+    "id" : "_5UotUKvsEe-1Ad8ca96SDg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_iQFaIKvMEe-SUs9D1--zlQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "TALEND_PROJECT:_f4WCwKjDEe-r1qGwz54MVQ",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_9T9XgKvJEe-SUs9D1--zlQ",
     "version" : "0.1",
     "type" : "job"
@@ -30,6 +49,14 @@
     "id" : "_iQFaIKvMEe-SUs9D1--zlQ",
     "version" : "Latest",
     "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_Gk77MKvsEe-1Ad8ca96SDg - metadata",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
